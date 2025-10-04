@@ -1,0 +1,202 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corpo da página */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffb6b6, #ffe8e8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container do formulário */
+.container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Campo de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ff4d4d;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #cc0000;
+}
+
+/* Botão */
+button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e60000;
+}
+
+/* Mensagem de erro/sucesso */
+#mensagem {
+  margin-top: 15px;
+  font-size: 14px;
+  color: red;
+}
+
+/* Sugestões */
+#sugestoes {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Quadrado "Hello, World!" */
+#helloQuadrado {
+  width: 250px;
+  height: 120px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  color: #0066cc;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Animação suave */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corpo da página */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #ffb6b6, #ffe8e8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container do formulário */
+.container {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Campo de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ff4d4d;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #cc0000;
+}
+
+/* Botão */
+button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e60000;
+}
+
+/* Mensagem de erro/sucesso */
+#mensagem {
+  margin-top: 15px;
+  font-size: 14px;
+  color: red;
+}
+
+/* Sugestões */
+#sugestoes {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Quadrado "Hello, World!" */
+#helloQuadrado {
+  width: 250px;
+  height: 120px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  color: #0066cc;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Animação suave */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
